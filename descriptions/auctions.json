@@ -1,0 +1,30 @@
+{
+        "auction_type_id": {
+            "desc": "type of auction",
+            "transformation": null
+        },
+        "country": {
+            "desc": "country where the auction was originated",
+            "transformation": "string hashing"
+        },
+        "date": {
+            "desc": "date for the auction",
+            "transformation": null
+        },
+        "device_id": {
+            "desc": "device the auction came from",
+            "transformation": "string hashing"
+        },
+        "platform": {
+            "desc": "android, ios",
+            "transformation": null
+        },
+        "ref_type_id": {
+            "desc": "internal id for the ref_typew",
+            "transformation": null
+        },
+        "source_id": {
+            "desc": "source (exchange) the auction came from",
+            "transformation": "LabelEncoding"
+        }
+}

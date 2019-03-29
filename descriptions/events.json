@@ -1,0 +1,90 @@
+{
+        "date": {
+            "desc": "",
+            "transformation": null
+        },
+        "event_id": {
+            "desc": "",
+            "transformation": "LabelEncoding"
+        },
+        "ref_type": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "ref_hash": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "application_id": {
+            "desc": "",
+            "transformation": "LabelEncoding"
+        },
+        "attributed": {
+            "desc": "",
+            "transformation": null
+        },
+        "device_countrycode": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "device_os_version": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "device_brand": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "device_model": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "device_city": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "session_user_agent": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "trans_id": {
+            "desc": "",
+            "transformation": null
+        },
+        "user_agent": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "event_uuid": {
+            "desc": "",
+            "transformation": null
+        },
+        "carrier": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "kind": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "device_os": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "wifi": {
+            "desc": "",
+            "transformation": null
+        },
+        "connection_type": {
+            "desc": "",
+            "transformation": null
+        },
+        "ip_address": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "device_language": {
+            "desc": "",
+            "transformation": "string hashing"
+        }
+}

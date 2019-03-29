@@ -1,0 +1,74 @@
+{
+        "created": {
+            "desc": "creation date for the install",
+            "transformation": null
+        },
+        "application_id": {
+            "desc": "internal id for the installed app",
+            "transformation": "LabelEncoding"
+        },
+        "ref_type": {
+            "desc": "either apple_ifa or google_advertising_id",
+            "transformation": "string hashing"
+        },
+        "ref_hash": {
+            "desc": "device's apple_ifa or google_advertising_id",
+            "transformation": "string hashing"
+        },
+        "click_hash": {
+            "desc": "hash for the install (like an id)",
+            "transformation": null
+        },
+        "attributed": {
+            "desc": "whether the install was attributed to Jampp",
+            "transformation": null
+        },
+        "implicit": {
+            "desc": "whether the install is implicit (the install was made by a device that has not installed according to the tracking platform)",
+            "transformation": null
+        },
+        "device_countrycode": {
+            "desc": "country code for the device",
+            "transformation": "string hashing"
+        },
+        "device_brand": {
+            "desc": "device's brand",
+            "transformation": "string hashing"
+        },
+        "device_model": {
+            "desc": "device's model",
+            "transformation": "string hashing"
+        },
+        "session_user_agent": {
+            "desc": "user-agent used for the install",
+            "transformation": null
+        },
+        "user_agent": {
+            "desc": "user agent related to the device",
+            "transformation": null
+        },
+        "event_uuid": {
+            "desc": "uuid4 generated for the event",
+            "transformation": null
+        },
+        "kind": {
+            "desc": "kind of install",
+            "transformation": null
+        },
+        "wifi": {
+            "desc": "boolean flagging if the install was performed on a wifi connection",
+            "transformation": null
+        },
+        "trans_id": {
+            "desc": "transaction id, used for joining",
+            "transformation": null
+        },
+        "ip_address": {
+            "desc": "ip addres through which the install was performed",
+            "transformation": "string hashing"
+        },
+        "device_language": {
+            "desc": "language related to the device",
+            "transformation": "string hashing"
+        }
+    }

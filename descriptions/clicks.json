@@ -1,0 +1,82 @@
+{
+        "advertiser_id": {
+            "desc": "internal id for the advertiser, Jampp's client paying for the ad",
+            "transformation": "LabelEncoding"
+        },
+        "action_id": {
+            "desc": "internal id for an action",
+            "transformation": ""
+        },
+        "source_id": {
+            "desc": "internal id for the source (exchange) from which the click originated",
+            "transformation": "LabelEncoding"
+        },
+        "created": {
+            "desc": "creation time for the click",
+            "transformation": null
+        },
+        "country_code": {
+            "desc": "internal country code id",
+            "transformation": "string hashing"
+        },
+        "latitude": {
+            "desc": "estimated lat where the click was performed",
+            "transformation": "Some linear transformation"
+        },
+        "longitude": {
+            "desc": "estimated lon where then click was performed",
+            "transformation": "Some linear transformation"
+        },
+        "wifi_connection": {
+            "desc": "Boolean describing whether the click was performed while on a wifi network",
+            "transformation": null
+        },
+        "carrier_id": {
+            "desc": "Id for the mobile carrier of the device",
+            "transformation": "LabelEncoding"
+        },
+        "trans_id": {
+            "desc": "internal transaction id",
+            "transformation": null
+        },
+        "os_minor": {
+            "desc": "minor version for the OS",
+            "transformation": "string hashing"
+        },
+        "agent_device": {
+            "desc": "agent for the device the click was performed on (model)",
+            "transformation": "string hashing"
+        },
+        "os_major": {
+            "desc": "major version for the os",
+            "transformation": "string hashing"
+        },
+        "specs_brand": {
+            "desc": "",
+            "transformation": "string hashing"
+        },
+        "brand": {
+            "desc": "device brand",
+            "transformation": "LabelEncoding"
+        },
+        "timeToClick": {
+            "desc": "time to click in seconds",
+            "transformation": null
+        },
+        "touchX": {
+            "desc": "X position for the click",
+            "transformation": null
+        },
+        "touchY": {
+            "desc": "Y position for the click",
+            "transformation": null
+        },
+        "ref_type": {
+            "desc": "either apple_ifa or google_advertising_id",
+            "transformation": "string hashing"
+        },
+        "ref_hash": {
+            "desc": "device's apple_ifa or google_advertising_id",
+            "transformation": "string hashing"
+        }
+}
